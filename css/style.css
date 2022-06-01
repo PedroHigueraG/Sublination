@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Roboto:wght@400;700;900&display=swap');
+/* font-family: 'Finger Paint', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+@font-face {
+    font-family: "Heaters";
+    src: url(/assets/Heaters.otf);
+}
+/* Confiugración básica */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+p,a{
+    font-size: 1.6rem;
+}
+
+h1{
+    color: #fff;
+    font-size: 8rem;
+    text-align: center;
+}
+h2{
+    font-size: 6rem;
+}
+.whitePhrase{
+    color: #fff;
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.fontStyled{
+    font-family: 'Heaters', cursive;
+    font-weight: 100;
+    color: black;
+}
+/* Navbar */
+.navbar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    z-index: 100;
+}
+.navbar a{
+    color: #fff;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    font-weight: bold;
+}
+/* Seccion de bienvenida */
+#welcomeSection{
+    background-image: url(/assets/dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+}
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+/* Seccion de quienes somos */
+#whoSection{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/assets/triangle.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.whoContainer{
+    text-align: center;
+    position: relative;
+}
+.whoText{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 50%;
+}
+.whoText p{
+    font-size: 2rem;
+    transition: .3s;
+}
+.brocha{
+    /* width: 50%; */
+    margin-top: 5rem;
+    width: 120rem;
+}
