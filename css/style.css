@@ -21,6 +21,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+section{
+    min-height: 100vh;
+}
+
 p,a{
     font-size: 1.6rem;
 }
@@ -69,7 +73,6 @@ h2{
     background-image: url('../assets/dark.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,7 +89,6 @@ h2{
 
 /* Seccion de quienes somos */
 #whoSection{
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,4 +114,40 @@ h2{
     /* width: 50%; */
     margin-top: 5rem;
     width: 120rem;
+}
+/* Seccion de categorías */
+#categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/categoriesBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.categoriesContainer{
+    display: flex;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 12rem;
+    height: 15rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0.03rem 1rem rgba(0,0,0,0.25);
+    margin: 1rem;  
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: .3s;
+}
+.category:hover{
+    padding: 1rem;
+    border: solid 0.1rem #000;
+    transition: .3s;
+}
+.category img{
+    width: 8rem;
 }
