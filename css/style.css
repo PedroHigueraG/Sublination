@@ -73,7 +73,6 @@ h2{
     background-image: url('../assets/dark.webp');
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #000;
     display: flex;
     flex-direction: column;
     align-items: center;
