@@ -70,7 +70,7 @@ h2{
 }
 /* Seccion de bienvenida */
 #welcomeSection{
-    background-image: url('../assets/dark.jpg');
+    background-image: url('../assets/dark.webp');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
