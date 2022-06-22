@@ -111,7 +111,6 @@ h2{
     transition: .3s;
 }
 .brocha{
-    /* width: 50%; */
     margin-top: 5rem;
     width: 120rem;
 }
@@ -141,6 +140,7 @@ h2{
     text-decoration: none;
     font-weight: bold;
     color: black;
+    background-color: #fff;
     transition: .3s;
 }
 .category:hover{
@@ -173,3 +173,120 @@ h2{
     width: 9rem;
     transition: .3s;
 }
+
+/* Responsive */
+@media screen and (max-width:1440px) {
+    .title h1{
+        font-size: 6rem;
+    }
+    .title img{
+        width: 50rem;
+    }
+    .brocha{
+        margin-top: 5rem;
+        width: 100rem;
+    }
+}
+@media screen and (max-width:1024px) {
+    .title h1{
+        font-size: 5rem;
+    }
+    .title img{
+        width: 50rem;
+    }
+    .brocha{
+        margin-top: 5rem;
+        width: 75rem;
+    }
+    .whoText h2{
+        font-size: 4rem;
+    }
+    .whoText p{
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .title h1{
+        font-size: 4rem;
+    }
+    .title img{
+        width: 40rem;
+    }
+    .brocha{
+        margin-top: 5rem;
+        width: 55rem;
+    }
+    .whoText h2{
+        font-size: 3rem;
+    }
+    .whoText p{
+        font-size: 1.5rem;
+    }
+    .categoriesContainer{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* #whoSection, #categories, #contactSection{
+        min-height: 60vh;
+    } */
+    .contactButtonContainer img{
+        width: 4rem;
+    }
+    .contactButtonContainer img:hover{
+        width: 5rem;
+    }
+    .category img{
+        width: 6rem;
+    }
+    .category{
+        width: 10rem;
+        height: 12rem;
+        font-size: 1.4rem;
+    }
+}    
+@media screen and (max-width:560px) {
+    .navbar{
+        display: none;
+    }
+    .title h1{
+        font-size: 3rem;
+    }
+    .title img{
+        width: 30rem;
+    }
+    .brocha{
+        margin-top: 5rem;
+        width: 32rem;
+        height: 40rem;
+    }
+    .whoText h2{
+        font-size: 3rem;
+    }
+    .whoText p{
+        font-size: 1.2rem;
+    }
+    .categoriesContainer{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* #whoSection, #categories, #contactSection{
+        min-height: 60vh;
+    } */
+    .contactButtonContainer img{
+        width: 3.5rem;
+    }
+    .contactButtonContainer img:hover{
+        width: 4.5rem;
+    }
+    .category img{
+        width: 4rem;
+    }
+    .category{
+        width: 8rem;
+        height: 10rem;
+        font-size: 1.4rem;
+    }
+    #categories h2{
+        font-size: 3rem;
+    }
+}  
