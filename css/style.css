@@ -111,6 +111,7 @@ h2{
     transition: .3s;
 }
 .brocha{
+    content: url('../assets/brocha.png');
     margin-top: 5rem;
     width: 120rem;
 }
@@ -213,22 +214,23 @@ h2{
         width: 40rem;
     }
     .brocha{
+        content: url('../assets/brochaMovil.png');
         margin-top: 5rem;
-        width: 55rem;
+        width: 100%;
+    }
+    .whoText{
+        top: 35%;
     }
     .whoText h2{
-        font-size: 3rem;
+        font-size: 5rem;
     }
     .whoText p{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .categoriesContainer{
         flex-wrap: wrap;
         justify-content: center;
     }
-    /* #whoSection, #categories, #contactSection{
-        min-height: 60vh;
-    } */
     .contactButtonContainer img{
         width: 4rem;
     }
@@ -255,23 +257,18 @@ h2{
         width: 30rem;
     }
     .brocha{
-        margin-top: 5rem;
-        width: 32rem;
-        height: 40rem;
+        margin-top: 4rem;
     }
     .whoText h2{
-        font-size: 3rem;
+        font-size: 4rem;
     }
     .whoText p{
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
     .categoriesContainer{
         flex-wrap: wrap;
         justify-content: center;
     }
-    /* #whoSection, #categories, #contactSection{
-        min-height: 60vh;
-    } */
     .contactButtonContainer img{
         width: 3.5rem;
     }
@@ -290,3 +287,12 @@ h2{
         font-size: 3rem;
     }
 }  
+@media screen and (max-width:425px) {
+    .brocha{
+        content: url('../assets/brochaTinnyMovil.png');
+    }
+    .whoText{
+        left: 10%;
+        width: 80%;
+    }
+}
